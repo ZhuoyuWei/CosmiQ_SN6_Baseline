@@ -63,7 +63,8 @@ RUN wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.4-Linux-x86_
     echo "conda activate base" >> ~/.bashrc
 
 # prepend pytorch and conda-forge before default channel
-RUN conda config --prepend channels conda-forge && \
+RUN conda update -n base -c defaults conda && \
+    conda config --prepend channels conda-forge && \
     conda config --prepend channels pytorch
 
 WORKDIR /root/
@@ -80,6 +81,8 @@ RUN cd solaris && pip install .
 # FOR EXAMPLE:
 COPY *.py /root/
 COPY *.sh /root/
+COPY *.txt /root/
+COPY weights /root/weights
 
 # SET PERMISSIONS FOR EXECUTION OF SHELL SCRIPTS
 RUN chmod a+x /root/train.sh && chmod a+x /root/test.sh && chmod a+x /root/settings.sh
