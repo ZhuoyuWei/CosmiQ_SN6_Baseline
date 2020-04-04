@@ -32,7 +32,6 @@ git clone https://github.com/cosmiq/solaris.git
 cd solaris
 git checkout ${solaris_branch}
 sudo pip install git+git://github.com/toblerity/shapely.git
-cd solaris
 sudo pip install .
 
 
