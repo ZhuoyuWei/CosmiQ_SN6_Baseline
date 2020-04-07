@@ -43,7 +43,7 @@ sudo apt-get install -y --no-install-recommends \
 sudo apt-get clean
 sudo rm -rf /var/lib/apt/lists/*
 
-SHELL ["/bin/bash", "-c"]
+#SHELL ["/bin/bash", "-c"]
 export $PATH=/opt/conda/bin:$PATH
 
 
