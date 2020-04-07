@@ -44,7 +44,7 @@ sudo apt-get clean
 sudo rm -rf /var/lib/apt/lists/*
 
 #SHELL ["/bin/bash", "-c"]
-export $PATH=/opt/conda/bin:$PATH
+export PATH=/opt/conda/bin:$PATH
 
 
 # install anaconda
