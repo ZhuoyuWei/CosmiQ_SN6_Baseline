@@ -11,7 +11,7 @@ OUTPUT_DIR=$WDATA_DIR/$EXP_ID
 mkdir $OUTPUT_DIR
 
 #envirement
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get install -y --no-install-recommends bc bzip2 ca-certificates curl emacs git less libgdal-dev libssl-dev libffi-dev libncurses-dev libgl1 jq nfs-common parallel python-dev python-pip python-wheel python-setuptools tree unzip zip vim wget xterm build-essential
 
 cd /

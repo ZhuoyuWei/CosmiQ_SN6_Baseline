@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11fd8cc3-3411-4894-b13f-d84888e7ffb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/install_docker.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_dlts_install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dlts_install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dlts_install.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,31 +27,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="2" />
+          <entry key="install_docker" value="1" />
           <entry key="md" value="2" />
-          <entry key="py" value="5" />
-          <entry key="sh" value="5" />
+          <entry key="py" value="6" />
+          <entry key="sh" value="6" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="5" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="2" />
           <entry key="md" value="1" />
           <entry key="py" value="53" />
-          <entry key="sh" value="377" />
-          <entry key="txt" value="82" />
+          <entry key="sh" value="620" />
+          <entry key="txt" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="459" />
+          <entry key="PLAIN_TEXT" value="708" />
           <entry key="Python" value="53" />
         </counts>
       </usages-collector>
@@ -68,17 +73,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="231">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new_dlts_install.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dlts_install.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="504">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/install_docker.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -87,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/test.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="4" selection-end-line="13" selection-end-column="54" />
+              <caret line="6" column="14" selection-start-line="4" selection-end-line="13" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -139,14 +162,16 @@
         <option value="$PROJECT_DIR$/dlts_install.sh.py" />
         <option value="$PROJECT_DIR$/train.sh" />
         <option value="$PROJECT_DIR$/dlts_install.sh" />
+        <option value="$PROJECT_DIR$/install_docker.sh" />
+        <option value="$PROJECT_DIR$/new_dlts_install.py" />
+        <option value="$PROJECT_DIR$/new_dlts_install.sh" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="141" />
-    <option name="y" value="123" />
-    <option name="width" value="1938" />
-    <option name="height" value="1176" />
+    <option name="x" value="-11" />
+    <option name="width" value="1148" />
+    <option name="height" value="1454" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -260,12 +285,32 @@
       <option name="project" value="LOCAL" />
       <updated>1586225810916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix the shell 0407 2">
+      <created>1586230035564</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586230035564</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix the shell 0407 3">
+      <created>1586230162472</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586230162472</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix the shell 0407 4">
+      <created>1586230414009</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586230414009</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21120109" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -295,7 +340,10 @@
     <MESSAGE value="add dlts running shell" />
     <MESSAGE value="fix the shell" />
     <MESSAGE value="fix the shell 0407" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix the shell 0407" />
+    <MESSAGE value="fix the shell 0407 2" />
+    <MESSAGE value="fix the shell 0407 3" />
+    <MESSAGE value="fix the shell 0407 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the shell 0407 4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md" />
@@ -316,17 +364,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="4" selection-end-line="13" selection-end-column="54" />
+          <caret line="6" column="14" selection-start-line="4" selection-end-line="13" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -344,10 +385,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/install_docker">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install_docker.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dlts_install.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="504">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_dlts_install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
