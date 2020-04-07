@@ -74,3 +74,53 @@ sudo pip install git+git://github.com/toblerity/shapely.git
 cd solaris
 sudo pip install .
 
+cd /zhuoyu_exp/code/CosmiQ_SN6_Baseline
+
+traindatapath=/data/zhuoyu/spacenet6/unzip_dir/AOI_11_Rotterdam
+testdatapath=/data/zhuoyu/spacenet6/unzip_dir/test/test_public/AOI_11_Rotterdam
+
+traindataargs="\
+--sardir $traindatapath/SAR-Intensity \
+--opticaldir $traindatapath/PS-RGB \
+--labeldir $traindatapath/geojson_buildings \
+--rotationfile $traindatapath/SummaryData/SAR_orientations.txt \
+"
+
+dstdir=/root
+
+settings="\
+--rotationfilelocal $dstdir/SAR_orientations.txt \
+--maskdir $dstdir/masks \
+--sarprocdir $dstdir/sartrain \
+--opticalprocdir $dstdir/optical \
+--traincsv $dstdir/train.csv \
+--validcsv $dstdir/valid.csv \
+--opticaltraincsv $dstdir/opticaltrain.csv \
+--opticalvalidcsv $dstdir/opticalvalid.csv \
+--testcsv $dstdir/test.csv \
+--yamlpath $dstdir/sar.yaml \
+--opticalyamlpath $dstdir/optical.yaml \
+--modeldir $dstdir/weights \
+--testprocdir $dstdir/sartest \
+--testoutdir $dstdir/inference_continuous \
+--testbinarydir $dstdir/inference_binary \
+--testvectordir $dstdir/inference_vectors \
+--rotate \
+--transferoptical \
+--mintrainsize 20 \
+--mintestsize 80 \
+"
+
+
+python baseline.py --pretrain --train $traindataargs $settings
+
+
+
+outputpath=$OUTPUT_DIR
+testdataargs="\
+--testdir $testdatapath/SAR-Intensity \
+--outputcsv $outputpath \
+"
+
+
+python baseline.py --pretest --test $testdataargs $settings
