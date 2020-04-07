@@ -25,6 +25,7 @@ ls
 
 
 #code
+sudo pip install "rtree>=0.8,<0.9"
 CODE_DIR=${EXP_ROOT_DIR}/code
 mkdir ${CODE_DIR}
 cd ${CODE_DIR}
