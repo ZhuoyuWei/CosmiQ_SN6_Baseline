@@ -26,6 +26,13 @@ ls
 
 #code
 sudo pip install "rtree>=0.8,<0.9"
+cd ${EXP_ROOT_DIR}
+mkdir rtree_code
+cd rtree_code
+git clone https://github.com/Toblerity/rtree.git
+cd rtree
+sudo pip install .
+
 CODE_DIR=${EXP_ROOT_DIR}/code
 mkdir ${CODE_DIR}
 cd ${CODE_DIR}
@@ -34,6 +41,13 @@ cd solaris
 git checkout ${solaris_branch}
 sudo pip install git+git://github.com/toblerity/shapely.git
 sudo pip install .
+
+#running code
+cd ${EXP_ROOT_DIR}
+mkdir running_code
+cd running_code
+clone https://github.com/ZhuoyuWei/CosmiQ_SN6_Baseline.git
+cd CosmiQ_SN6_Baseline
 
 
 
