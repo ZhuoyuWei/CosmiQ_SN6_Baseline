@@ -37,6 +37,7 @@ CODE_DIR=${EXP_ROOT_DIR}/code
 mkdir ${CODE_DIR}
 cd ${CODE_DIR}
 git clone https://github.com/cosmiq/solaris.git
+sudo pip install geopandas
 cd solaris
 git checkout ${solaris_branch}
 sudo pip install git+git://github.com/toblerity/shapely.git
