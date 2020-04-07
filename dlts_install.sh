@@ -46,7 +46,7 @@ sudo pip install .
 cd ${EXP_ROOT_DIR}
 mkdir running_code
 cd running_code
-clone https://github.com/ZhuoyuWei/CosmiQ_SN6_Baseline.git
+git clone https://github.com/ZhuoyuWei/CosmiQ_SN6_Baseline.git
 cd CosmiQ_SN6_Baseline
 
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11fd8cc3-3411-4894-b13f-d84888e7ffb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dlts_install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dlts_install.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,14 +41,14 @@
         <counts>
           <entry key="md" value="1" />
           <entry key="py" value="53" />
-          <entry key="sh" value="198" />
-          <entry key="txt" value="77" />
+          <entry key="sh" value="377" />
+          <entry key="txt" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="275" />
+          <entry key="PLAIN_TEXT" value="459" />
           <entry key="Python" value="53" />
         </counts>
       </usages-collector>
@@ -78,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dlts_install.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="442">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -254,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586003119587</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix the shell 0407">
+      <created>1586225810916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586225810916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -288,7 +294,8 @@
     <MESSAGE value="same with latest cosmiQ" />
     <MESSAGE value="add dlts running shell" />
     <MESSAGE value="fix the shell" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix the shell" />
+    <MESSAGE value="fix the shell 0407" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the shell 0407" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md" />
@@ -339,8 +346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dlts_install.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="442">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
